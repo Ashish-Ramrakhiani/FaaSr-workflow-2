@@ -3,10 +3,9 @@
         "My_GitHub_Account": {
             "FaaSType": "GitHubActions",
             "UserName": "Ashish-Ramrakhiani",
-            "UseSecretStore": false,
+            "UseSecretStore": true,
             "ActionRepoName": "FaaSr-workflow-2",
-            "Branch": "main",
-            "Token": "My_GitHub_Account_TOKEN"
+            "Branch": "main"
         },
         "My_SLURM_Server": {
       "FaaSType": "SLURM",
@@ -29,7 +28,6 @@
             "Endpoint": "https://run.googleapis.com/v2/projects/",
             "UseSecretStore": true,
             "ClientEmail": "faasr-workflow-runner@faasr-dev.iam.gserviceaccount.com",
-            "SecretKey": "My_GCP_Server_SECRET_KEY",
             "TokenUri": "https://oauth2.googleapis.com/token"
         }
     },
