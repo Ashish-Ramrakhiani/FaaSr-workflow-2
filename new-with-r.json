@@ -22,7 +22,7 @@
       "Bucket": "faasr",
       "Endpoint": "https://play.min.io",
       "Region": "us-east-1",
-      "Writable": "TRUE",
+      "Writable": "TRUE"
     }
     },
     "ActionList": {
