@@ -19,7 +19,7 @@
     },
     "DataStores": {
         "My_Minio_Bucket": {
-      "Bucket": "hoang",
+      "Bucket": "faasr",
       "Endpoint": "https://play.min.io",
       "Region": "us-east-1",
       "Writable": "TRUE",
