@@ -18,7 +18,7 @@
         }
     },
     "DataStores": {
-        "My_Minio_Bucket": {
+        "My_S3_Bucket": {
       "Bucket": "faasr",
       "Endpoint": "https://play.min.io",
       "Region": "us-east-1",
@@ -73,7 +73,7 @@
     },
     "ActionContainers": {
         "rfunc": "ramrakha/gcp-r:1.4",
-        "add_operation": "ghcr.io/ashish-ramrakhiani/github-actions-python:dev",
+        "add-operation": "ghcr.io/ashish-ramrakhiani/ga-py:1.5",
         "log": "ghcr.io/ashish-ramrakhiani/ga-rpc-python:dev",
         "folders": "ghcr.io/ashish-ramrakhiani/ga-rpc-python:dev"
     },
@@ -100,8 +100,8 @@
     },
     "FunctionInvoke": "add-operation",
     "FaaSrLog": "FaaSrLog",
-    "LoggingDataStore": "My_Minio_Bucket",
-    "DefaultDataStore": "My_Minio_Bucket",
+    "LoggingDataStore": "My_S3_Bucket",
+    "DefaultDataStore": "My_S3_Bucket",
     "InvocationID":"",
     "InvocationIDFromDate": "%Y%m%d%H%M",
     "WorkflowName": "test-ts-workflow-7"
